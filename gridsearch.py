@@ -1,5 +1,5 @@
 from pprint import pprint
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import RandomForest
 from sklearn.model_selection import GridSearchCV
 import pandas as pd
 import numpy as np
