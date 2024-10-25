@@ -19,9 +19,9 @@ def evaluate(model, test_features, test_labels):
 df = pd.read_csv("mulliken_2.csv")
 X = df.drop('states', axis=1)
 y = df['states']
-rf = RandomForestRegressor(random_state = 42)
+rf = RandomForest(random_state = 42)
 
-base_model = RandomForestRegressor(n_estimators = 100, random_state = 42)
+base_model = RandomForest(n_estimators = 100, random_state = 42)
 base_model.fit(X, y)
 base_accuracy = evaluate(base_model,X, y)
 
