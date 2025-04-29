@@ -22,16 +22,16 @@ pip install numpy pandas scikit-learn xgboost BorutaShap matplotlib
 
 ## Usage
 1. Training Regression Models
-Run the following script to train and evaluate several regression models:
+Run the following script to train and the accuracy of training dataset.
 
 2. Decision Tree Regression
-To run a regression model using a decision tree:
+To generate decision trees used to further evaluate feature importance and interactions. 
 
 3. Feature Selection with BorutaShap
-To determine the most important features for classifying deformation twinning:
+Used to determine the most important features for classifying deformation twinning:
 
 4. Hyperparameter Tuning
-To optimize model hyperparameters using cross-validated grid search:
+To optimize model hyperparameters using cross-validated grid search
 
 ## Citation
 If you use this code or datasets in your work, please cite the following paper:
