@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
 from BorutaShap import BorutaShap, load_data
 a=[]
-readfile= "ACC-hex_dataset.csv"
+readfile= "Mg_twinning_dataset.csv"
 
 #create data structure for SVM
 data = pd.read_csv(readfile)
@@ -44,5 +44,5 @@ for i in range(100):
     df2= pd.DataFrame(pd.read_csv('feature_importance.csv'))
     df1= pd.concat([df1,df2])
 
-df1.to_excel('final_mulliken_boruta.xlsx')
+df1.to_excel('Mg_twinning_dataset.xlsx')
 
