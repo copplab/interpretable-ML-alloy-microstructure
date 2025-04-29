@@ -9,7 +9,7 @@ from sklearn import tree
 from sklearn.calibration import CalibratedClassifierCV
 import matplotlib.pyplot as plt
 
-df = pd.read_excel('trial_1.xlsx')
+df = pd.read_excel('Mg_twinning_dataset.xlsx')
 X = df.drop('is twin', axis=1)
 y = df['is twin']
 accuracy=[]
